@@ -7,7 +7,7 @@ import OrderSummary from "../../components/Burger/OrderSummary/OrderSummary";
 import axios from "../../axios-order";
 import Spinner from "../../components/UI/Spinner/Spinner";
 import ErrorHandlerModal from "../../hoc/ErrorHandlerModal/ErrorHandlerModal";
-import { connect, useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import * as burgerBuilderActions from "../../store/actions/index";
 
 export const BurgerBuilder = (props) => {
